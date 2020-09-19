@@ -19,6 +19,10 @@ public class Program {
       {
         Console.WriteLine("ping");
       }
+      else if (index%5 == 0)
+      {
+        Console.WriteLine("pong");
+      }
       else
       {
         Console.WriteLine(index);
