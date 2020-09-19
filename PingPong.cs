@@ -15,7 +15,11 @@ public class Program {
     for(int index=1; index<=inputtedNumber; index++)
     {
       // Conditional Logic to Manipulate Values Added to List
-      if (index%3 == 0)
+      if (index%3 == 0 && index%5 ==0)
+      {
+        Console.WriteLine("ping-pong");
+      }
+      else if (index%3 == 0)
       {
         Console.WriteLine("ping");
       }
@@ -27,7 +31,6 @@ public class Program {
       {
         Console.WriteLine(index);
       }
-      
     }
   } 
 }
