@@ -14,8 +14,16 @@ public class Program {
     // For Each Loop to Add Values to List
     for(int index=1; index<=inputtedNumber; index++)
     {
-      Console.WriteLine(index);
       // Conditional Logic to Manipulate Values Added to List
+      if (index%3 == 0)
+      {
+        Console.WriteLine("ping");
+      }
+      else
+      {
+        Console.WriteLine(index);
+      }
+      
     }
   } 
 }
